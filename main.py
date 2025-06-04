@@ -2,7 +2,7 @@ import os
 import threading
 from flask import Flask, request, redirect
 from datetime import datetime
-from pyfiglet import figlet_format
+from import figlet_format
 
 
 R = '\033[91m'
